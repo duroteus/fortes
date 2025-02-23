@@ -1,0 +1,15 @@
+{
+  "name": "questoes",
+  "version": "1.0.0",
+  "main": "01-imposto-de-renda.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
