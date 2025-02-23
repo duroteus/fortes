@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Cores principais */
+  --color-primary: #2c2c2c;
+  --color-primary-hover: #3d3d3d;
+
+  /* Cores de fundo */
+  --color-background: #ffffff;
+  --color-background-alt: #f8f9fa;
+  --color-background-gradient-from: #f1f3f5;
+  --color-background-gradient-to: #f8f9fa;
+
+  /* Cores de texto */
+  --color-text-primary: #343a40;
+  --color-text-secondary: #6c757d;
+  --color-text-white: #ffffff;
+
+  /* Cores de borda */
+  --color-border: #dee2e6;
+
+  /* Cores de estado */
+  --color-error-background: #fff5f5;
+  --color-error-text: #c92a2a;
+
+  /* Cores de elementos de UI */
+  --color-input-focus: #495057;
+  --color-card-background: #ffffff;
+  --color-card-header: #343a40;
+  --color-card-shadow: rgba(0, 0, 0, 0.05);
+
+  /* Cores de destaque */
+  --color-accent: #e03131;
+  --color-accent-light: #fa5252;
+  --color-accent-subtle: #ffe3e3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--color-text-primary);
+  background: var(--color-background);
+  font-family: Arial, Helvetica, sans-serif;
+}
