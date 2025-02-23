@@ -39,10 +39,10 @@ node 03-substituicao-em-vetor.js
 
 ### Tecnologias Utilizadas
 
-- Next.js 14 (App Router)
+- Next.js 15 (App Router)
 - React
-- TypeScript
-- Yarn (Gerenciador de pacotes)
+- Tailwind CSS
+- NPM
 
 ### Pré-requisitos
 
