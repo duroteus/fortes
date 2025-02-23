@@ -1,0 +1,31 @@
+name: Run Tests
+
+on:
+  push:
+    paths:
+      - "questoes/**"
+  pull_request:
+    paths:
+      - "questoes/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./questoes
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
