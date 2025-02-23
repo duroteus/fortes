@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Sistema de Usuários",
-  description: "Sistema de gerenciamento de usuários",
+  title: "Desafio Técnico",
+  description: "Desafio técnico para a empresa Fortes",
 };
 
 export default function RootLayout({ children }) {
