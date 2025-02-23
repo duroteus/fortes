@@ -7,6 +7,39 @@ Este repositório contém a solução para o teste técnico da Fortes Tecnologia
 
 ## Questões Algorítmicas
 
+### Tecnologias Utilizadas
+
+- Node.js
+- Jest
+
+### Como executar as questões
+
+### Navegue até a pasta questoes
+
+```bash
+cd questoes
+```
+
+### Instale as dependências
+
+```bash
+npm install
+```
+
+### Execute cada questão individualmente
+
+```bash
+node 01-imposto-de-renda.js
+node 02-multiplos-de-13.js
+node 03-substituicao-em-vetor.js
+```
+
+### Ou execute todos os testes
+
+```bash
+npm test
+```
+
 ### Questão 1 - Cálculo de Imposto de Renda
 
 Implementação de uma função que calcula o imposto de renda baseado em diferentes faixas salariais.
@@ -18,22 +51,6 @@ Função que soma todos os números em um intervalo que não são múltiplos de 
 ### Questão 3 - Substituição em Vetor
 
 Manipulação de array onde números negativos ou zero são substituídos por 1.
-
-### Como executar as questões
-
-### Navegue até a pasta questoes
-
-```bash
-cd questoes
-```
-
-### Execute cada questão individualmente
-
-```bash
-node 01-imposto-de-renda.js
-node 02-soma-nao-multiplos-de-13.js
-node 03-substituicao-em-vetor.js
-```
 
 ## Projeto em Next.js
 

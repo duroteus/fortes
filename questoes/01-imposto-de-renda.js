@@ -23,6 +23,4 @@ function calculateTax(salary) {
   return `R$ ${tax.toFixed(2)}`;
 }
 
-console.log(calculateTax(3002.0));
-console.log(calculateTax(1701.12));
-console.log(calculateTax(4520.0));
+module.exports = { calculateTax };
