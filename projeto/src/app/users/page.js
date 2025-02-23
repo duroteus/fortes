@@ -94,6 +94,7 @@ export default function UsersPage() {
                   >
                     Editar
                   </button>
+
                   {user.login !== "Fortes" && (
                     <button
                       onClick={() => deleteUser(user.id)}
@@ -124,6 +125,7 @@ export default function UsersPage() {
                   onChange={(e) => setLogin(e.target.value)}
                   className="w-full p-2 border rounded"
                   required
+                  disabled={editingUser?.login === "Fortes"}
                 />
               </div>
               <div className="mb-6">
