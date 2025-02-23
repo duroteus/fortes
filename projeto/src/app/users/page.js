@@ -94,12 +94,14 @@ export default function UsersPage() {
                   >
                     Editar
                   </button>
-                  <button
-                    onClick={() => deleteUser(user.id)}
-                    className="text-red-500 hover:text-red-700"
-                  >
-                    Excluir
-                  </button>
+                  {user.login !== "Fortes" && (
+                    <button
+                      onClick={() => deleteUser(user.id)}
+                      className="text-red-500 hover:text-red-700"
+                    >
+                      Excluir
+                    </button>
+                  )}
                 </td>
               </tr>
             ))}
